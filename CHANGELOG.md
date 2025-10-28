@@ -12,3 +12,6 @@ Used rebase 1 time
 
 # Phase 4 Step 5
 Used reset 3 times, revert 1 time
+
+# Phase 4 Step 6
+Created 2+ tags
