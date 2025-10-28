@@ -1,29 +1,39 @@
+# Existing Production/Universal Application Configuration (from main + dev merge)
 application:
   name: DevOpsSimulator
-  version: 1.0.0             
-  environment: production    
+  version: 1.0.0
+  environment: production
+# experimental_mode: false # Explicitly not set to avoid conflicts, or set to false if used by code
 
 server:
-  host: 0.0.0.0              
-  port: 8080                 
-  ssl_enabled: true          
+  host: 0.0.0.0
+  port: 8080
+  ssl_enabled: true
+  # Experimental Port Configuration - Not active by default
+  # multi_port: [9000, 9001, 9002] 
 
 logging:
-  level: INFO                
-  format: json               
-  output: /var/log/app.log   
+  level: INFO
+  format: json
+  output: /var/log/app.log
+  # Experimental AI Logging - Do NOT uncomment for production
+  # ai_analysis: enabled 
 
 database:
-  host: prod-db.example.com  
-  port: 5432                 
-  name: devops_prod          
+  host: prod-db.example.com
+  port: 5432
+  name: devops_prod
+  # Experimental Distributed DB - Not production ready
+  # distributed: true 
 
 features:
-  auto_scaling: true         
-  load_balancer: enabled     
-  backup_enabled: true       
-  experimental_features: false 
-
+  auto_scaling: true
+  load_balancer: enabled
+  backup_enabled: true
+  experimental_features: false
+  # New Experimental Features - Set to 'disabled' or COMMENTED OUT
+  # chaos_engineering: enabled 
+  
 development:
   mock_external_apis: true
   debug_mode: true
@@ -33,3 +43,23 @@ notifications:
   slack_webhook: "https://hooks.slack.com/services/XXX"
   discord_webhook: "https://discord.com/api/webhooks/YYY"
   email_alerts: false
+
+# --- EXPERIMENTAL FEATURES (From conflict-simulator) ---
+# DO NOT UNCOMMENT IN PRODUCTION ENVIRONMENTS
+
+# ai_features:
+#   predictive_scaling: true
+#   anomaly_detection: true
+#   auto_optimization: true
+#   model_version: "v2.1.0"
+
+# cloud_providers:
+#   - aws
+#   - azure
+#   - gcp
+#   - digitalocean
+
+# security:
+#   zero_trust: enabled
+#   encryption: AES-256
+#   audit_logging: comprehensive
