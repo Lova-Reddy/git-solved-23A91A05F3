@@ -1,17 +1,18 @@
-# Phase 4
-Used fetch 1 time, pull 1 time
-
-# Phase 4 Step 2
-Used stash 1 time
-
-# Phase 4 Step 3
-Used cherry-pick 1 time
-
-# Phase 4 Step 4
-Used rebase 1 time
-
-# Phase 4 Step 5
-Used reset 3 times, revert 1 time
-
-# Phase 4 Step 6
-Created 2+ tags
+- 2a57d39: Created GIT_JOURNEY.md (Lova Reddy Dwarampudi, 25 seconds ago)
+- e54817e: Updated CHANGELOG.md after Step 4.6 Git Tags (Lova Reddy Dwarampudi, 3 minutes ago)
+- 4729584: Updated CHANGELOG.md after Step 4.5 (Lova Reddy Dwarampudi, 4 minutes ago)
+- 4b6428a: docs: Update README (Lova Reddy Dwarampudi, 14 minutes ago)
+- 5fc820c: Updated CHANGELOG.md after cherry-pick (Lova Reddy Dwarampudi, 16 minutes ago)
+- 0c1ba3e: feat: Add new feature (Lova Reddy Dwarampudi, 80 minutes ago)
+- adb809e: docs: Add FAQ section (Lova Reddy Dwarampudi, 81 minutes ago)
+- 132199f: Added CHANGELOG.md (Lova Reddy Dwarampudi, 5 hours ago)
+- 95e6561: Added checkpoint3.png (Lova Reddy Dwarampudi, 5 hours ago)
+- aaac812: merge: Resolve all conflicts with conflict-simulator branch (Lova Reddy Dwarampudi, 5 hours ago)
+- f44c0af: checkpoint2.png is added (Lova Reddy Dwarampudi, 5 hours ago)
+- c4f7c82: merge: Resolve all conflicts between main and dev branches (Lova Reddy Dwarampudi, 5 hours ago)
+- a177579: checkpoint1.png image is added (Lova Reddy Dwarampudi, 6 hours ago)
+- d3dd9b2: updating conflict-simulator (Hanu Gupta, 5 days ago)
+- 02011a5: updating dev (Hanu Gupta, 5 days ago)
+- 0312c6f: updating main (Hanu Gupta, 5 days ago)
+- fadfd24: Revise README for DevOps Simulator project (Hanu Gupta, 5 days ago)
+- ae630eb: Initial commit (Hanu Gupta, 5 days ago)
