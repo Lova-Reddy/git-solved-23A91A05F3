@@ -60,4 +60,4 @@ pip install tensorflow keras
 ./scripts/init-ai-models.sh
 
 # Start with AI-enhanced mode
-npm run start:ai
+npm run start:ai## FAQ
