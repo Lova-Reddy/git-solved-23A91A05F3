@@ -1,11 +1,11 @@
 # My Git Mastery Challenge Journey
 
 ## Student Information
-- Name: [YOUR NAME]
-- Student ID: [YOUR ID]
-- Repository: [YOUR REPO URL]
-- Date Started: [DATE]
-- Date Completed: [DATE]
+- Name: Dwarampudi Lova Reddy
+- Student ID: 23A91A05F3
+- Repository: https://github.com/Lova-Reddy/git-solved-23A91A05F3
+- Date Started: 28/10/2025
+- Date Completed: 28/10/2025
 
 ## Task Summary
 Cloned instructor's repository with pre-built conflicts and resolved all 
